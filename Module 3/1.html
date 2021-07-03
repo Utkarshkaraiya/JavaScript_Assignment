@@ -3,7 +3,7 @@
     <script>
 
    
-//a Print id and name of the youngest and oldest person
+
 
 const arr=[
 {"id": 1, "name": "Amit Kumar", "age": 25},
@@ -12,10 +12,13 @@ const arr=[
 {"id": 4, "name": "Rohit Verma", "age": 35},
 {"id": 5, "name": "Ajay Jain", "age": 17},
     ]
-    console.log(Object.values(arr));
+  //a Print id and name of the youngest and oldest person  
 
-    
-const young=Math.min()
+    let young = arr.reduce((a,b)=> Math.min(a,b.age), arr[0].age);
+console.log(young)
+let old = arr.reduce((a,b)=> Math.max(a,b.age), arr[0].age);
+console.log(old)
+
 // c. Find the average age
 const size=arr.length;
 sum=0;
