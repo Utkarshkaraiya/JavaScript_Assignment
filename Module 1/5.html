@@ -1,0 +1,56 @@
+<html>
+<script>
+    //A sum
+    var sum = 0;
+    var arr = [10, 1, 42, 36, 4, 75, 6, 97, 81, 19, 10]
+    for (i = 0; i < arr.length; i++) {
+        sum += arr[i];
+    }
+    console.log(sum);
+
+
+    var len = arr.length, min = Infinity;
+    while (len--) {
+        if (Number(arr[len]) < min) {
+            min = Number(arr[len]);
+        }
+    }
+    console.log(min);// we can also use  var min = Math.min.apply(null, arr),
+
+
+
+    var len = arr.length, max = -Infinity;
+    while (len--) {
+        if (Number(arr[len]) > max) {
+            max = Number(arr[len]);
+        }
+    }
+    console.log(max); //we can also use max = Math.max.apply(null, arr);
+    //B prime 
+    flag = true;
+    test = true;
+    for (i = 0; i < arr.length; i++) {
+      
+            for (let j = 2; i < arr[i]; j++)
+                if (arr[i] % j === 0) {
+
+                    test = false;
+                    flag=false;
+                    break;
+                } else if (arr[i] % j !== 0) {
+                flag = true;
+                break;
+            }
+        }
+    
+    if (test&&flag) {
+        console.log(" “List is full of prime no”")
+    } else if(flag) {
+        console.log(" “List Has full of prime no”")
+    }
+
+   
+
+</script>
+
+</html>

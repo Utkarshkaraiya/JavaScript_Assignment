@@ -1,0 +1,26 @@
+//Most popular  JavaScript frameworks
+1. ReactJs
+React is one of the most powerful and open-source JavaScript frameworks.. At first, Facebook developers started working on it to simplify
+ their work. The application called Facebook Ads was growing extremely fast, which meant complicated management and support.
+  As a result, the team started building a library to help them with efficiency. They had an early prototype before 2011 and, two years later, the library was open-source and available to the public. A lot of business giants are currently using it: AirBNB, PayPal, Netflix, etc. 
+React is based on a reusable component. 
+
+2. Angular
+Angular is one of the most powerful and open-source JavaScript frameworks. Google operates this framework and is designed to use it to develop a Single Page Application (SPA). This development framework is known primarily because it gives developers the best conditions to combine JavaScript with HTML and CSS. Over half a million websites, such as google.com, youtube.com, etc., use Angular. 
+One of the factors it is known to be so reliable is the support of Google. It is also the JavaScript UI framework of choice for Google app developers. Angular has a component-based structure, just like React. You can manipulate, nest, and reuse them as you need them. You will need to use TypeScript to write an application to Angular. It’s a JavaScript superset that uses the same syntax but also supports static typing and classes. 
+
+3.  Vue.js
+Vue is an open-source JavaScript framework for creating a creative UI. The integration with Vue in projects using other JavaScript libraries is simplified because it is designed to be adaptable. More than 36,000 websites are currently using Vue. Companies like Stackoverflow, PlayStation, etc. rely on Vue for their UI websites. 
+Vue.js is also quite simple to learn: you just need all the background knowledge you need is JavaScript and HTML. Another strength of Vue.js is its official command-line interface (CLI). It is basic tooling that speeds up development by offering a ton of plugins, presets, instant prototyping, and an interactive project scaffolding tool.   Some of its features include components, templates, transitions, and two-way data binding, as well as a reactivity focus.
+ Reactivity occurs when you change or update any of the JavaScript objects in Vue. Vue.js uses something called the Shadow DOM that makes the page rendering fast.
+
+
+
+
+4.  jQuery
+JQuery is probably the most popular JavaScript library out there with so many features for modern-day development. JQuery is a fast and concise Library of JavaScript created by John Resig in 2006.   It is a cross-platform JavaScript library designed to simplify HTML client-side scripting. More than 19 million websites are currently using jQuery! Companies like WordPress, Facebook, Google, IBM, and many others rely on jQuery to provide some kind of web browsing experience.
+We can use the jQuery API to handle, animate, and manipulate an event in an HTML document, also known as DOM. Also, jQuery is used with Angular and React App building tools. In short, one of the most important JavaScript libraries for web development.
+
+
+5. Node.js
+Node.js is an open-source, server-side platform built on the Google Chrome JavaScript Engine. The number of websites using NodeJS has increased by 84,000. It is one of the most downloaded, cross-platform runtime environments for running JavaScript code.  Node.js is an asynchronous, single-threaded, non-blocking I/O model that makes it lightweight and efficient. The Node.js package ecosystem, npm, is also the largest open-source library ecosystem in the world.

@@ -1,0 +1,17 @@
+// Difference between regular functions and arrow functions
+Arrow function — also called fat arrow function— is a new feature introduced in ES6 that is a more concise syntax for writing function expressions.
+ While both regular JavaScript functions and arrow functions work in a similar manner, there are certain differences between them.
+//Example
+ // ES5
+var add = function(x, y) {
+  return x + y;
+};
+// ES6
+let add = (x, y) => { return x + y };
+
+Following are the main differences:
+-Syntax
+-Arguments binding
+-Use of this keyword
+-Using a new keyword
+-No duplicate named parameters

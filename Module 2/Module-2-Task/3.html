@@ -1,0 +1,21 @@
+<html>
+    <script>
+var arr=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+var arr1=arr.filter(item=>item%2==0);  //even
+console.log(arr1);
+
+var arr2=arr.filter(item=>item%2!=0);  //odd
+console.log(arr2);
+flag=true;
+
+//prime 
+
+const myPrimeArray = arr.filter(num => {
+  for (let i = 2; i < num; i++) {
+    if (num % i === 0) return false;
+  }
+  return num !== 1;
+});
+console.log(myPrimeArray);
+    </script>
+</html>

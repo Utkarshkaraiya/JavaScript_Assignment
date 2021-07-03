@@ -1,0 +1,53 @@
+<html>
+    <script>
+        var arr= [10, 1, 42, 36, 4, 75, 6, 97, 81, 19, 10];
+
+        var size=arr.length;
+//a-> sum min max
+
+var sum=arr.reduce((a,b)=>a+b);
+console.log(sum);
+
+let min = Math.min.apply(null, arr)
+let max=Math.max.apply(null,arr)
+console.log(min) //min
+console.log(max)//max
+
+// //or
+
+
+// array.min() //=> 0
+// array.max() //=> 100
+
+
+//b-> Print “List is full of prime no” if every element is prime
+
+//c-> Print “List has a prime no” if there is a prime no in it
+let prime =true;
+prime1=false;
+const myPrimeArray = arr.filter(num => {
+  for (let i = 2; i < num; i++) {
+    if (num % i === 0) {prime=false; return false;
+  }else prime=true;
+}
+  return num !== 1;
+});
+
+if(myPrimeArray.length===arr.length)
+{console.log("“List is full of prime no”")}
+else if (myPrimeArray){
+    console.log("“List has a prime no”")
+}
+ //C RemoveDuplicates
+    function removeDuplicates(data) {
+        return [...new Set(data)]
+    }
+    console.log(removeDuplicates(arr));
+
+
+
+
+
+
+    </script>
+</html>

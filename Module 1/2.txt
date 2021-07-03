@@ -1,0 +1,7 @@
+//Most popular open-source JavaScript frameworks
+
+ReactJS	Created by Facebook, currently the most popular JavaScript framework	
+Angular	Popular JavaScript framework created by Google
+VueJS	Rapidly growing JavaScript framework	
+MeteorJS	Powerful framework that is more than a JavaScript framework	
+KnockoutJS	Open source Model-View-ViewModel (MVVM) framework
