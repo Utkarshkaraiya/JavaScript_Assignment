@@ -1,0 +1,41 @@
+
+<html>
+    <script>
+
+   
+//a Print id and name of the youngest and oldest person
+
+const arr=[
+{"id": 1, "name": "Amit Kumar", "age": 25},
+{"id": 2, "name": "Rahul Dixit","age": 20},
+{"id": 3, "name": "Ravi Joshi", "age": 55},
+{"id": 4, "name": "Rohit Verma", "age": 35},
+{"id": 5, "name": "Ajay Jain", "age": 17},
+    ]
+    console.log(Object.values(arr));
+
+    
+const young=Math.min()
+// c. Find the average age
+const size=arr.length;
+sum=0;
+let avgage=arr.map(item=>sum+=item.age)
+console.log(sum/size);
+
+// Create another list having id and name of all the person above 18 years
+let age1=arr.filter(item=>item.age>18);
+age1.map(item=>delete item.age)
+console.log(age1)
+
+
+
+//Create 2 list with names starting with only ‘A’ and ‘R’ respectively
+
+const l1=arr.filter(item=>item.name.startsWith("A"))
+console.log(l1);
+const l2=arr.filter(item=>item.name.startsWith("R"));
+console.log(l2);
+
+
+</script>
+</html>

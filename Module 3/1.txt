@@ -1,1 +1,14 @@
-task 1..
+2.  Try the below code and identify which of the below programs are a valid case of hoisting?
+
+Program 1:
+a = 10;
+console.log(a);
+var a;        //science var a will be undefined because in js first memory allocation takes place     
+                i.e valid case of hosting
+
+
+Program 2:
+a = 5;
+console.log(a);
+let a;       //  it will show error not defined
+
