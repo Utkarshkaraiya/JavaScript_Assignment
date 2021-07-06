@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-- //Events Dom Events -->
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./index.css" type="text/css" />
+    <script>
+      function onClickHandler(){
+         alert("Hello world!");
+       }
+       const button = document.getElementById("btn");
+button.onclick = function(){
+   alert("Button has been clicked");
+}
+// Mouse events
+// click
+// dblclick
+// mousemove
+// mouseover
+// mousewheel
+// mouseout
+// contextmenu
+// mousedown
+// mouseup
+// 2. Touch events
+
+// touchstart
+// touchmove
+// touchend
+// touchcancel
+// 3. Keyboard events
+
+// keydown
+// keypress
+// keyup
+// 4. Form events
+
+// focus
+// blur
+// change
+// submit
+// 5. Window events
+
+// scroll
+// resize
+// hashchange
+// load
+// unload
+//
+
+
+//Browser prevent actions
+// <a href="/" onclick="return false">Click here</a>
+// or
+// <a href="/" onclick="event.preventDefault()">here</a>
+
+// <a href="/" onclick="return false">Click here</a>
+// or
+// <a href="/" onclick="event.preventDefault()">here</a>
+
+//dispatchEvent
+// <button id="elem" onclick="alert('Click!');">Autoclick</button>
+
+// <script>
+  let event = new Event("click");
+  elem.dispatchEvent(event);
+</script>
+    </script> 
+  </head>
+  <body>
+    <div class="wrapper">
+       <button onclick = "onClickHandler()"> Click me </button>
+    </div>
+  </body>
+</html>
