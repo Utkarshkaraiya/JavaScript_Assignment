@@ -1,0 +1,7 @@
+table,th,td{
+    border: 2px solid black;
+    margin: 2px;
+}
+td{
+    margin: 4px;
+}
