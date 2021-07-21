@@ -1,0 +1,27 @@
+<html>
+
+
+    <body >
+        <h4>Heading</h4>
+       
+       <h2>Question</h2>
+       <p>Write Your code here</p>
+      <textarea id="txtarea" rows="10" cols="180" ></textarea><br><br>
+<button style="width: 100px">Save</button>
+  
+    <script>
+
+let bodyy=document.querySelector("#txtarea")
+bodyy.addEventListener("input",(event)=>{
+if(event.target.value!==""){
+ addEventListener("beforeunload",(e)=>{
+      e.returnValue="Your Data is Not Saved"
+  })
+}
+
+})
+
+
+    </script>
+      </body>
+</html>
