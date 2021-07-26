@@ -1,0 +1,12 @@
+//ES5 AND ES6
+
+1. ECMAScript 5 (ES5P) : 
+ES5 is also known as ECMAScript 2009 as it is released in 2009. It is a function contractors
+ focus on how the objects are instantiated. For ES5 you have to write function keyword and return,
+ to be used to define the function, like normal general JavaScript language. 
+
+2. ECMAScript 6 (ES6) : 
+ES6 is also known as ECMAScript 2015 as it is released in 2015. Its class allows
+ the developers to instantiate an object using the new operator, using an arrow function, 
+ in case it doesn’t need to use function keyword to define the function, also return keyword
+  can be avoided to fetch the computer value. 
