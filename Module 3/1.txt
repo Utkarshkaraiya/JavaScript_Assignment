@@ -12,3 +12,6 @@ a = 5;
 console.log(a);
 let a;       //  it will show error not defined
 
+
+
+
